@@ -15,7 +15,8 @@ print((
 (
   so.Plot(anscombe,
          x = 'x',
-         y = 'y')  
+         y = 'y',
+         color ='dataset' )  
     .add(so.Dot())
     .facet('dataset', wrap = 2)  # To facet based on the datasets, and to create 2 columns  
     # .show()
