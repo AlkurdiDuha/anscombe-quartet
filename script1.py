@@ -1,6 +1,8 @@
 import seaborn as sns
 import seaborn.objects as so
-# seaborn has some built-in datasets
+
+# Load the data
+# Seaborn has some built-in datasets
 anscombe = sns.load_dataset('anscombe')
 
 print(anscombe.head())
